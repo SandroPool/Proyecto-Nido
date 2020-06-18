@@ -1,0 +1,38 @@
+.font{
+    font-family: 'Sriracha', cursive;
+    color: whitesmoke;
+    text-align: center;
+}
+.font-form{
+    font-family: 'Sriracha', cursive;
+}
+
+.radio{
+    border-radius: 1em;
+}
+.logo{
+    width: 100px;
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+.nav-expand{
+    padding-bottom: 75px;
+}
+.font-frase{
+    font-family: 'Pacifico', cursive;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    /* Fondo */
+    background: #8E0E00;  
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00); 
+    background: linear-gradient(to right, #1F1C18, #8E0E00);   
+}
+
+main {
+    flex: 1 0 auto;
+}
